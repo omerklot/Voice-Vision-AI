@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "Voice&Vision AI — Enterprise AI Solutions",
+    "description": "Voice&Vision AI connects businesses to cutting-edge AI Vision & OCR and Conversational Voice Agent solutions. Transform your operations with enterprise-grade artificial intelligence."
+  },
+  "skipLink": "Skip to main content",
+  "intro": {
+    "initializing": "Initializing",
+    "clickToEnter": "Click anywhere to enter",
+    "aiSolutions": "AI Solutions"
+  },
+  "nav": {
+    "products": "Products",
+    "about": "About",
+    "testimonials": "Testimonials",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "cta": "Get in Touch",
+    "languageLabel": "Language",
+    "navigate": "Navigate",
+    "scrollToTop": "Voice&Vision AI — scroll to top",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "languageNames": {
+      "en": "English",
+      "he": "עברית",
+      "ar": "عربي",
+      "ru": "Русский",
+      "fr": "Français"
+    }
+  },
+  "hero": {
+    "pretag": "Enterprise AI Solutions",
+    "headline1": "AI That Sees.",
+    "headline2": "AI That Speaks.",
+    "subheadline": "Voice&Vision AI bridges your organization to the frontier of AI — delivering Vision & OCR systems and Conversational Voice Agents that drive measurable, compounding outcomes.",
+    "ctaPrimary": "Book a Demo",
+    "ctaSecondary": "Explore Products"
+  },
+  "products": {
+    "pretag": "Our Solutions",
+    "title": "What We Offer",
+    "subtitle": "Two flagship AI products, purpose-built for enterprise scale, reliability, and measurable ROI.",
+    "vision": {
+      "label": "Vision & OCR",
+      "name": "AI Intelligent Vision & OCR Systems",
+      "description": "Transform images, scanned documents, and visual data into structured, actionable information at enterprise scale. Our Vision & OCR pipeline delivers near-perfect accuracy with sub-second processing times across every document type you operate.",
+      "useCase1": "Automated invoice processing and AP/AR workflows",
+      "useCase2": "Document digitization and records management",
+      "useCase3": "Real-time quality inspection on production lines",
+      "useCase4": "Regulatory compliance document extraction",
+      "cta": "Explore Solution"
+    },
+    "voice": {
+      "label": "Voice Agents",
+      "name": "Conversational Voice Agents",
+      "description": "Deploy AI voice agents that handle real conversations — inbound, outbound, complex, nuanced — with the precision of your best representatives and the availability of a 24/7 workforce. No scripts. No queues. Just outcomes.",
+      "useCase1": "Tier-1 customer service automation and escalation",
+      "useCase2": "Outbound sales prospecting and qualification",
+      "useCase3": "Appointment scheduling and calendar management",
+      "useCase4": "Legacy IVR replacement with natural language",
+      "cta": "Explore Solution"
+    }
+  },
+  "about": {
+    "pretag": "About Us",
+    "title": "The Bridge Between Business and AI's Leading Edge",
+    "stat1": {
+      "stat": "99.7%",
+      "label": "OCR Accuracy",
+      "description": "Near-perfect accuracy on structured and semi-structured documents — reducing manual review to near zero."
+    },
+    "stat2": {
+      "stat": "<200ms",
+      "label": "Voice Latency",
+      "description": "Voice agents that respond at human conversational speed, with no awkward pauses and no dropped context."
+    },
+    "stat3": {
+      "stat": "24/7",
+      "label": "Enterprise Support",
+      "description": "Dedicated onboarding, integration engineering, and ongoing optimization from day one."
+    },
+    "body1p1": "Voice&Vision AI was built for one purpose: to make enterprise-grade artificial intelligence accessible, deployable, and measurable for organizations that can't afford to wait for the technology curve.",
+    "body1p2": "We sit between your organization and the world's most capable AI infrastructure — handling the complexity of integration, customization, and continuous optimization so your teams can focus on outcomes, not implementation.",
+    "body2p1": "Our clients are operations directors, technology leaders, and customer experience executives at mid-to-large organizations who have outgrown legacy systems and need AI that actually ships — on time, within scope, with measurable results.",
+    "body2p2": "Every engagement begins with a discovery call and ends with a live system in your environment — typically within 2–4 weeks."
+  },
+  "testimonials": {
+    "pretag": "Client Results",
+    "title": "What Our Clients Say",
+    "disclaimer": "* Representative testimonials — real outcomes, real clients",
+    "t1": {
+      "quote": "The OCR system processed our entire invoice backlog in 48 hours. We reduced AP processing time by 83% in the first month and eliminated nearly all manual keying errors.",
+      "name": "Sarah Mitchell",
+      "title": "VP of Finance Operations",
+      "company": "Meridian Logistics Group",
+      "product": "AI Vision & OCR"
+    },
+    "t2": {
+      "quote": "Our call deflection rate went from 22% to 71% after deploying the Voice Agents. What surprised us most was that customer satisfaction scores actually improved.",
+      "name": "James Okafor",
+      "title": "Director of Customer Experience",
+      "company": "Nexus Financial Services",
+      "product": "Voice Agents"
+    },
+    "t3": {
+      "quote": "Voice&Vision AI didn't just sell us software — they owned the integration end to end and had us live in under three weeks. That's rare with enterprise AI.",
+      "name": "Elena Torres",
+      "title": "Chief Technology Officer",
+      "company": "Apex Healthcare Systems",
+      "product": "Both Products"
+    },
+    "t4": {
+      "quote": "The accuracy on our compliance document extraction is genuinely remarkable. We have retired two legacy systems and reduced the team doing manual review by 60%.",
+      "name": "David Park",
+      "title": "Head of Operations",
+      "company": "Sterling Manufacturing",
+      "product": "AI Vision & OCR"
+    }
+  },
+  "faq": {
+    "pretag": "FAQ",
+    "title": "Frequently Asked Questions",
+    "q1": "How does the AI Vision & OCR system work?",
+    "a1": "Our Vision & OCR system runs a multi-stage pipeline: documents are pre-processed for orientation and quality, passed through a layout detection model that identifies regions (tables, headers, line items), then through an OCR engine fine-tuned to your document types. Output is structured JSON or your preferred format, ready for downstream automation. Accuracy typically exceeds 99.5% on standard business documents.",
+    "q2": "What industries does the Vision & OCR product serve?",
+    "a2": "The system is deployed across logistics (bills of lading, freight manifests), finance (invoices, statements, contracts), healthcare (medical records, insurance forms, EHR documents), manufacturing (inspection reports, compliance certificates), and legal (contracts, regulatory filings). If your business processes paper or digital documents at any meaningful volume, it almost certainly applies.",
+    "q3": "How do your AI solutions integrate with our existing software (CRM/ERP)?",
+    "a3": "Our goal is to enhance your current operations, not complicate them. Our agents are designed with API-first architecture, allowing them to bridge seamlessly with major platforms like Salesforce, SAP, Microsoft Dynamics, and custom-built legacy systems. We ensure that the data captured by our AI flows directly into your existing databases in real-time.",
+    "q4": "What does the onboarding process look like?",
+    "a4": "After initial scoping, we complete integration setup and model configuration within 2–4 weeks depending on complexity. Onboarding includes: discovery call and technical review, integration build, model training on your specific use case, UAT with your team, go-live, and a 30-day hypercare period with daily check-ins. You will have a dedicated implementation contact throughout.",
+    "q5": "How do I get started or request a demo?",
+    "a5": "Use the contact form on this page or email us directly at voiceandvision.AI@gmail.com. We respond within one business day to schedule an initial discovery call. After that call, we run a live product demo tailored to your industry and deliver a written proposal with ROI projections within five business days.",
+    "q6": "How do you ensure the security and privacy of our corporate data?",
+    "a6": "Data security is our highest priority. All AI models, whether for Voice or Vision, are deployed using enterprise-grade encryption (AES-256) and are fully compliant with global privacy standards like GDPR. Your sensitive documents and voice recordings are processed in secure environments, ensuring that your proprietary information never trains public models and remains strictly yours.",
+    "q7": "Are these AI agents \"off-the-shelf\" or fully customized to our business?",
+    "a7": "We do not believe in one-size-fits-all. Every solution we provide is a Bespoke AI Agent. During our initial consultation, we map out your specific business logic, industry terminology, and technical requirements. Whether it's a Voice Agent that needs a specific brand \"tone\" or an OCR system that needs to read a very niche type of legal document, the final product is built from the ground up to fit your workflow."
+  },
+  "contact": {
+    "pretag": "Get Started",
+    "title": "Let's Build Your AI Future",
+    "subtitle": "Tell us about your business. We'll connect you with the right solution and respond within one business day.",
+    "responseTimeLabel": "Response Time",
+    "responseTimeValue": "Within 1 business day",
+    "onboardingLabel": "Onboarding",
+    "onboardingValue": "2–4 weeks to go-live",
+    "contactLabel": "Contact",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Jane Smith",
+    "required": "*",
+    "businessEmail": "Business Email",
+    "businessEmailPlaceholder": "jane@company.com",
+    "companyName": "Company Name",
+    "companyNamePlaceholder": "Acme Corporation",
+    "jobTitle": "Job Title",
+    "jobTitlePlaceholder": "VP of Operations",
+    "phone": "Phone Number",
+    "phonePlaceholder": "+1 (555) 000-0000",
+    "productInterest": "Product Interest",
+    "optionNotSure": "Not sure yet",
+    "optionVision": "AI Vision & OCR Systems",
+    "optionVoice": "Voice Agents",
+    "optionBoth": "Both Products",
+    "message": "Tell Us About Your Needs",
+    "messagePlaceholder": "Describe your workflow, pain points, or what you're hoping AI can solve...",
+    "submit": "Send My Request",
+    "submitting": "Sending…",
+    "successTitle": "Request Received",
+    "successMessage": "We'll be in touch within 24 hours.",
+    "sendAnother": "Send Another Request",
+    "errorText": "Something went wrong. Email us at voiceandvision.AI@gmail.com",
+    "validationName": "Please enter your full name",
+    "validationEmail": "Please enter a valid business email",
+    "validationCompany": "Please enter your company name",
+    "validationJobTitle": "Please enter your job title"
+  },
+  "footer": {
+    "tagline": "Connecting forward-thinking businesses to the next generation of artificial intelligence.",
+    "contactSub": "Response within one business day.",
+    "navigate": "Navigate",
+    "copyright": "© 2025 Voice&Vision AI. All rights reserved.",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie Policy",
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter / X"
+  },
+  "terms": {
+    "backToHome": "← Back to Home",
+    "tos": "Terms of Service",
+    "tosContent": "Content coming soon.",
+    "privacy": "Privacy Policy",
+    "privacyContent": "Content coming soon.",
+    "cookies": "Cookie Policy"
+  },
+  "cookieBanner": {
+    "notice": "We use cookies to enhance your browsing experience and analyze site traffic.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "policyLink": "Cookie Policy"
+  },
+  "accessibility": {
+    "label": "Accessibility options",
+    "title": "Accessibility",
+    "close": "Close accessibility panel",
+    "fontSize": "Font Size",
+    "fontSizeNormal": "Normal",
+    "fontSizeLarge": "Large",
+    "fontSizeXL": "X-Large",
+    "highContrast": "High Contrast",
+    "highContrastDesc": "Increase color contrast",
+    "pauseAnimations": "Pause Animations",
+    "pauseAnimationsDesc": "Stop all motion effects",
+    "dyslexiaMode": "Dyslexia-Friendly",
+    "dyslexiaModeDesc": "Readable font and wider spacing",
+    "resetAll": "Reset all settings"
+  }
+}

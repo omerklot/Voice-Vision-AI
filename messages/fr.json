@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "Voice&Vision AI — Solutions d'IA Entreprise",
+    "description": "Voice&Vision AI connecte les entreprises aux solutions Vision & OCR et d'agents vocaux conversationnels de pointe. Transformez vos opérations grâce à l'intelligence artificielle de niveau entreprise."
+  },
+  "skipLink": "Passer au contenu principal",
+  "intro": {
+    "initializing": "Initialisation",
+    "clickToEnter": "Cliquez n'importe où pour entrer",
+    "aiSolutions": "Solutions d'IA"
+  },
+  "nav": {
+    "products": "Produits",
+    "about": "À propos",
+    "testimonials": "Témoignages",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "cta": "Nous contacter",
+    "languageLabel": "Langue",
+    "navigate": "Navigation",
+    "scrollToTop": "Voice&Vision AI — défiler vers le haut",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "languageNames": {
+      "en": "English",
+      "he": "עברית",
+      "ar": "عربي",
+      "ru": "Русский",
+      "fr": "Français"
+    }
+  },
+  "hero": {
+    "pretag": "Solutions d'IA Entreprise",
+    "headline1": "L'IA qui voit.",
+    "headline2": "L'IA qui parle.",
+    "subheadline": "Voice&Vision AI connecte votre organisation à la frontière de l'IA — avec des systèmes Vision & OCR et des agents vocaux conversationnels générant des résultats mesurables et cumulatifs.",
+    "ctaPrimary": "Réserver une démo",
+    "ctaSecondary": "Explorer les produits"
+  },
+  "products": {
+    "pretag": "Nos solutions",
+    "title": "Ce que nous offrons",
+    "subtitle": "Deux produits d'IA phares, conçus pour l'échelle entreprise, la fiabilité et un ROI mesurable.",
+    "vision": {
+      "label": "Vision & OCR",
+      "name": "Systèmes Vision & OCR intelligents basés sur l'IA",
+      "description": "Transformez des images, des documents numérisés et des données visuelles en informations structurées et exploitables à l'échelle entreprise. Notre pipeline Vision & OCR offre une précision quasi parfaite avec des temps de traitement inférieurs à la seconde sur tous les types de documents.",
+      "useCase1": "Traitement automatisé des factures et flux AP/AR",
+      "useCase2": "Numérisation de documents et gestion des archives",
+      "useCase3": "Contrôle qualité en temps réel sur les lignes de production",
+      "useCase4": "Extraction de documents de conformité réglementaire",
+      "cta": "Explorer la solution"
+    },
+    "voice": {
+      "label": "Agents vocaux",
+      "name": "Agents vocaux conversationnels",
+      "description": "Déployez des agents vocaux IA qui gèrent de vraies conversations — entrantes, sortantes, complexes, nuancées — avec la précision de vos meilleurs représentants et la disponibilité d'une équipe 24h/24, 7j/7. Pas de scripts. Pas d'attente. Que des résultats.",
+      "useCase1": "Automatisation du service client de niveau 1 et escalade",
+      "useCase2": "Prospection commerciale sortante et qualification",
+      "useCase3": "Prise de rendez-vous et gestion d'agenda",
+      "useCase4": "Remplacement des anciens SVI par le langage naturel",
+      "cta": "Explorer la solution"
+    }
+  },
+  "about": {
+    "pretag": "À propos",
+    "title": "Le pont entre les entreprises et l'avant-garde de l'IA",
+    "stat1": {
+      "stat": "99.7%",
+      "label": "Précision OCR",
+      "description": "Précision quasi parfaite sur les documents structurés et semi-structurés — réduisant la révision manuelle à presque zéro."
+    },
+    "stat2": {
+      "stat": "<200ms",
+      "label": "Latence vocale",
+      "description": "Des agents vocaux qui répondent à la vitesse d'une conversation humaine, sans pauses gênantes ni perte de contexte."
+    },
+    "stat3": {
+      "stat": "24/7",
+      "label": "Support entreprise",
+      "description": "Onboarding dédié, ingénierie d'intégration et optimisation continue dès le premier jour."
+    },
+    "body1p1": "Voice&Vision AI a été créée dans un seul but : rendre l'intelligence artificielle de niveau entreprise accessible, déployable et mesurable pour les organisations qui ne peuvent pas se permettre d'attendre la courbe technologique.",
+    "body1p2": "Nous nous positionnons entre votre organisation et l'infrastructure IA la plus performante au monde — gérant la complexité de l'intégration, de la personnalisation et de l'optimisation continue pour que vos équipes puissent se concentrer sur les résultats, pas sur la mise en œuvre.",
+    "body2p1": "Nos clients sont des directeurs des opérations, des responsables technologiques et des directeurs de l'expérience client dans des organisations de taille moyenne à grande qui ont dépassé les systèmes hérités et ont besoin d'une IA qui délivre vraiment — dans les délais, dans le périmètre, avec des résultats mesurables.",
+    "body2p2": "Chaque engagement commence par un appel de découverte et se termine par un système opérationnel dans votre environnement — généralement en 2 à 4 semaines."
+  },
+  "testimonials": {
+    "pretag": "Résultats clients",
+    "title": "Ce que disent nos clients",
+    "disclaimer": "* Témoignages représentatifs — résultats réels, clients réels",
+    "t1": {
+      "quote": "Le système OCR a traité l'intégralité de notre arriéré de factures en 48 heures. Nous avons réduit le temps de traitement des créances de 83% le premier mois et éliminé presque toutes les erreurs de saisie manuelle.",
+      "name": "Sarah Mitchell",
+      "title": "Vice-présidente des opérations financières",
+      "company": "Meridian Logistics Group",
+      "product": "AI Vision & OCR"
+    },
+    "t2": {
+      "quote": "Notre taux de déviation des appels est passé de 22% à 71% après le déploiement des agents vocaux. Ce qui nous a le plus surpris, c'est que les scores de satisfaction client se sont en réalité améliorés.",
+      "name": "James Okafor",
+      "title": "Directeur de l'expérience client",
+      "company": "Nexus Financial Services",
+      "product": "Agents vocaux"
+    },
+    "t3": {
+      "quote": "Voice&Vision AI ne nous a pas seulement vendu un logiciel — ils ont pris en charge l'intégration de bout en bout et nous ont mis en production en moins de trois semaines. C'est rare avec l'IA d'entreprise.",
+      "name": "Elena Torres",
+      "title": "Directrice Technique",
+      "company": "Apex Healthcare Systems",
+      "product": "Les deux produits"
+    },
+    "t4": {
+      "quote": "La précision de l'extraction de nos documents de conformité est véritablement remarquable. Nous avons mis hors service deux systèmes hérités et réduit l'équipe de révision manuelle de 60%.",
+      "name": "David Park",
+      "title": "Directeur des opérations",
+      "company": "Sterling Manufacturing",
+      "product": "AI Vision & OCR"
+    }
+  },
+  "faq": {
+    "pretag": "FAQ",
+    "title": "Questions fréquemment posées",
+    "q1": "Comment fonctionne le système AI Vision & OCR ?",
+    "a1": "Notre système Vision & OCR fonctionne via un pipeline multi-étapes : les documents sont prétraités pour l'orientation et la qualité, puis passent par un modèle de détection de mise en page qui identifie les régions (tableaux, en-têtes, éléments de ligne), puis par un moteur OCR affiné pour vos types de documents. La sortie est du JSON structuré ou votre format préféré, prêt pour l'automatisation. La précision dépasse généralement 99,5% sur les documents commerciaux standards.",
+    "q2": "Quels secteurs le produit Vision & OCR dessert-il ?",
+    "a2": "Le système est déployé dans la logistique (connaissements, manifestes de fret), la finance (factures, relevés, contrats), la santé (dossiers médicaux, formulaires d'assurance, documents EHR), la fabrication (rapports d'inspection, certificats de conformité) et le juridique (contrats, dépôts réglementaires). Si votre entreprise traite des documents papier ou numériques dans un volume significatif, il s'applique presque certainement.",
+    "q3": "Comment vos solutions IA s'intègrent-elles avec nos logiciels existants (CRM/ERP) ?",
+    "a3": "Notre objectif est d'améliorer vos opérations actuelles, non de les compliquer. Nos agents sont conçus avec une architecture API-first, leur permettant de s'intégrer de manière transparente avec les principales plateformes telles que Salesforce, SAP, Microsoft Dynamics et les systèmes hérités personnalisés. Nous veillons à ce que les données capturées par notre IA se déversent directement dans vos bases de données existantes en temps réel.",
+    "q4": "À quoi ressemble le processus d'intégration ?",
+    "a4": "Après la définition initiale du périmètre, nous finalisons la configuration de l'intégration et la configuration du modèle en 2 à 4 semaines selon la complexité. L'intégration comprend : un appel de découverte et une revue technique, la construction de l'intégration, la formation du modèle sur votre cas d'usage spécifique, les tests d'acceptation utilisateur avec votre équipe, la mise en production et une période d'hypercare de 30 jours avec des points quotidiens. Vous disposerez d'un interlocuteur dédié tout au long du processus.",
+    "q5": "Comment démarrer ou demander une démonstration ?",
+    "a5": "Utilisez le formulaire de contact sur cette page ou envoyez-nous un e-mail directement à voiceandvision.AI@gmail.com. Nous répondons dans un jour ouvré pour planifier un appel de découverte initial. Après cet appel, nous réalisons une démonstration produit en direct adaptée à votre secteur et livrons une proposition écrite avec des projections de ROI dans les cinq jours ouvrés.",
+    "q6": "Comment garantissez-vous la sécurité et la confidentialité de nos données d'entreprise ?",
+    "a6": "La sécurité des données est notre priorité absolue. Tous les modèles IA, qu'ils soient pour la voix ou la vision, sont déployés avec un chiffrement de niveau entreprise (AES-256) et sont pleinement conformes aux normes mondiales de confidentialité telles que le RGPD. Vos documents sensibles et vos enregistrements vocaux sont traités dans des environnements sécurisés, garantissant que vos informations propriétaires n'entraînent jamais des modèles publics et restent strictement les vôtres.",
+    "q7": "Ces agents IA sont-ils « prêts à l'emploi » ou entièrement personnalisés pour mon entreprise ?",
+    "a7": "Nous ne croyons pas au tout-en-un. Chaque solution que nous proposons est un agent IA sur mesure. Lors de notre consultation initiale, nous cartographions votre logique métier spécifique, la terminologie sectorielle et les exigences techniques. Qu'il s'agisse d'un agent vocal nécessitant un « ton » de marque spécifique ou d'un système OCR devant lire un type très niche de document juridique, le produit final est construit de zéro pour s'adapter à votre flux de travail."
+  },
+  "contact": {
+    "pretag": "Démarrer",
+    "title": "Construisons votre avenir avec l'IA",
+    "subtitle": "Parlez-nous de votre entreprise. Nous vous connecterons à la bonne solution et vous répondrons dans un jour ouvré.",
+    "responseTimeLabel": "Délai de réponse",
+    "responseTimeValue": "En 1 jour ouvré",
+    "onboardingLabel": "Intégration",
+    "onboardingValue": "2–4 semaines jusqu'au démarrage",
+    "contactLabel": "Contact",
+    "fullName": "Nom complet",
+    "fullNamePlaceholder": "Jean Dupont",
+    "required": "*",
+    "businessEmail": "E-mail professionnel",
+    "businessEmailPlaceholder": "jean@entreprise.com",
+    "companyName": "Nom de l'entreprise",
+    "companyNamePlaceholder": "Entreprise ABC",
+    "jobTitle": "Fonction",
+    "jobTitlePlaceholder": "Directeur des opérations",
+    "phone": "Numéro de téléphone",
+    "phonePlaceholder": "+33 6 00 00 00 00",
+    "productInterest": "Produit d'intérêt",
+    "optionNotSure": "Pas encore sûr",
+    "optionVision": "Systèmes AI Vision & OCR",
+    "optionVoice": "Agents vocaux",
+    "optionBoth": "Les deux produits",
+    "message": "Parlez-nous de vos besoins",
+    "messagePlaceholder": "Décrivez votre flux de travail, vos points de douleur ou ce que vous espérez résoudre avec l'IA...",
+    "submit": "Envoyer ma demande",
+    "submitting": "Envoi en cours…",
+    "successTitle": "Demande reçue",
+    "successMessage": "Nous vous contacterons dans les 24 heures.",
+    "sendAnother": "Envoyer une autre demande",
+    "errorText": "Une erreur s'est produite. Écrivez-nous à voiceandvision.AI@gmail.com",
+    "validationName": "Veuillez entrer votre nom complet",
+    "validationEmail": "Veuillez entrer une adresse e-mail professionnelle valide",
+    "validationCompany": "Veuillez entrer le nom de votre entreprise",
+    "validationJobTitle": "Veuillez entrer votre fonction"
+  },
+  "footer": {
+    "tagline": "Connecter les entreprises visionnaires à la prochaine génération d'intelligence artificielle.",
+    "contactSub": "Réponse dans un jour ouvré.",
+    "navigate": "Navigation",
+    "copyright": "© 2025 Voice&Vision AI. Tous droits réservés.",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "cookies": "Politique des cookies",
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter / X"
+  },
+  "terms": {
+    "backToHome": "← Retour à l'accueil",
+    "tos": "Conditions d'utilisation",
+    "tosContent": "Contenu à venir.",
+    "privacy": "Politique de confidentialité",
+    "privacyContent": "Contenu à venir.",
+    "cookies": "Politique des cookies"
+  },
+  "cookieBanner": {
+    "notice": "Nous utilisons des cookies pour améliorer votre expérience de navigation et analyser le trafic du site.",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "policyLink": "Politique des cookies"
+  },
+  "accessibility": {
+    "label": "Options d'accessibilité",
+    "title": "Accessibilité",
+    "close": "Fermer le panneau d'accessibilité",
+    "fontSize": "Taille de police",
+    "fontSizeNormal": "Normal",
+    "fontSizeLarge": "Grand",
+    "fontSizeXL": "Très grand",
+    "highContrast": "Contraste élevé",
+    "highContrastDesc": "Augmenter le contraste des couleurs",
+    "pauseAnimations": "Mettre en pause les animations",
+    "pauseAnimationsDesc": "Arrêter tous les effets de mouvement",
+    "dyslexiaMode": "Mode dyslexie",
+    "dyslexiaModeDesc": "Police lisible et espacement élargi",
+    "resetAll": "Réinitialiser tous les paramètres"
+  }
+}
