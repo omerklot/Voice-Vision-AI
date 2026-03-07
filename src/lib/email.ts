@@ -113,34 +113,61 @@ function buildEmailHtml(data: ContactFormData): string {
 </html>`;
 }
 
+/* ─── Nodemailer fallback ────────────────────────────────────────── */
+async function sendViaSmtp(subject: string, html: string): Promise<EmailResult> {
+  const { host, port, user, pass } = {
+    host: process.env.SMTP_HOST,
+    port: Number(process.env.SMTP_PORT ?? 587),
+    user: process.env.SMTP_USER,
+    pass: process.env.SMTP_PASS,
+  };
+  if (!host || !user || !pass) {
+    return { success: false, error: 'SMTP not configured' };
+  }
+  try {
+    const nodemailer = await import('nodemailer');
+    const transporter = nodemailer.default.createTransport({
+      host, port, secure: port === 465,
+      auth: { user, pass },
+    });
+    await transporter.sendMail({ from: user, to: TO_ADDRESS, subject, html });
+    console.log('[email] Sent via SMTP');
+    return { success: true };
+  } catch (err) {
+    console.error('[email] SMTP error:', err);
+    return { success: false, error: String(err) };
+  }
+}
+
 /* ─── Main send function ─────────────────────────────────────────── */
 export async function sendLeadEmail(data: ContactFormData): Promise<EmailResult> {
   const subject = `New Lead: ${data.company} — ${data.productInterest}`;
   const html = buildEmailHtml(data);
 
+  // Try Resend first if API key + from address are both configured
   const apiKey = process.env.RESEND_API_KEY;
-  if (!apiKey) {
-    console.error('[email] RESEND_API_KEY is not set');
-    return { success: false, error: 'Email not configured (missing API key)' };
+  const fromEmail = process.env.RESEND_FROM_EMAIL;
+  if (apiKey && fromEmail) {
+    try {
+      const { Resend } = await import('resend');
+      const resend = new Resend(apiKey);
+      const { data: sent, error } = await resend.emails.send({
+        from: fromEmail,
+        to: TO_ADDRESS,
+        subject,
+        html,
+      });
+      if (error) {
+        console.error('[email] Resend error:', error);
+      } else {
+        console.log('[email] Sent via Resend, id:', sent?.id);
+        return { success: true };
+      }
+    } catch (err) {
+      console.error('[email] Resend threw:', err);
+    }
   }
 
-  try {
-    const { Resend } = await import('resend');
-    const resend = new Resend(apiKey);
-    const { data: sent, error } = await resend.emails.send({
-      from: process.env.RESEND_FROM_EMAIL ?? 'onboarding@resend.dev',
-      to: TO_ADDRESS,
-      subject,
-      html,
-    });
-    if (error) {
-      console.error('[email] Resend error:', error);
-      return { success: false, error: `Resend: ${error.message}` };
-    }
-    console.log('[email] Sent via Resend, id:', sent?.id);
-    return { success: true };
-  } catch (err) {
-    console.error('[email] Resend threw:', err);
-    return { success: false, error: String(err) };
-  }
+  // Fall back to SMTP
+  return sendViaSmtp(subject, html);
 }
