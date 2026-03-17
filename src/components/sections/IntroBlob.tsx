@@ -40,8 +40,6 @@ export default function IntroBlob() {
     // Restore scroll immediately — overlay is fixed so page won't flash during exit anim
     document.body.style.overflow = '';
     document.documentElement.style.overflow = '';
-    // Jump to top instantly (bypasses scroll-behavior: smooth)
-    window.scrollTo({ top: 0, behavior: 'instant' } as ScrollToOptions);
     setVisible(false);
   }, []);
 

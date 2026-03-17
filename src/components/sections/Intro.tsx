@@ -23,7 +23,6 @@ export default function Intro() {
   const dismiss = useCallback(() => {
     document.body.style.overflow = '';
     document.documentElement.style.overflow = '';
-    window.scrollTo({ top: 0, behavior: 'instant' } as ScrollToOptions);
     setVisible(false);
   }, []);
 
@@ -84,6 +83,7 @@ export default function Intro() {
       {visible && (
         <motion.div
           key="intro-overlay"
+          dir="ltr"
           role="dialog"
           aria-modal="true"
           aria-label="Voice &amp; Vision AI"

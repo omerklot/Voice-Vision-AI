@@ -42,11 +42,6 @@ body {
 }
 
 /* ─── RTL font overrides ───────────────────────────────────────────── */
-html[lang="he"] {
-  --font-display: var(--font-heebo), system-ui, sans-serif;
-  --font-body:    var(--font-heebo), system-ui, sans-serif;
-}
-
 html[lang="ar"] {
   --font-display: var(--font-cairo), system-ui, sans-serif;
   --font-body:    var(--font-cairo), system-ui, sans-serif;

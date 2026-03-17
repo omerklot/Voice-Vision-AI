@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Montserrat, Plus_Jakarta_Sans, Heebo, Cairo, Lexend } from 'next/font/google';
+import { Montserrat, Plus_Jakarta_Sans, Cairo, Lexend } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
@@ -25,14 +25,6 @@ const jakarta = Plus_Jakarta_Sans({
   display: 'swap',
 });
 
-// ── Hebrew font ───────────────────────────────────────────────────────────────
-const heebo = Heebo({
-  variable: '--font-heebo',
-  subsets: ['hebrew', 'latin'],
-  weight: ['300', '400', '500', '600', '700', '800', '900'],
-  display: 'swap',
-});
-
 // ── Arabic font ───────────────────────────────────────────────────────────────
 const cairo = Cairo({
   variable: '--font-cairo',
@@ -49,7 +41,7 @@ const lexend = Lexend({
   display: 'swap',
 });
 
-const rtlLocales = ['he', 'ar'];
+const rtlLocales = ['ar'];
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -104,11 +96,9 @@ export default async function LocaleLayout({
   const isRTL = rtlLocales.includes(locale);
 
   const fontVars =
-    locale === 'he'
-      ? `${heebo.variable} ${lexend.variable}`
-      : locale === 'ar'
-        ? `${cairo.variable} ${lexend.variable}`
-        : `${montserrat.variable} ${jakarta.variable} ${lexend.variable}`;
+    locale === 'ar'
+      ? `${cairo.variable} ${lexend.variable}`
+      : `${montserrat.variable} ${jakarta.variable} ${lexend.variable}`;
 
   const t = await getTranslations({ locale });
   // Load messages directly to avoid request-context dependency during prerendering

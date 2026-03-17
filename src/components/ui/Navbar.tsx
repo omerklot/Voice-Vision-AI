@@ -7,11 +7,10 @@ import { useTranslations, useLocale } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 import AccessibilityPanel from './AccessibilityPanel';
 
-const locales = ['en', 'he', 'ar', 'ru', 'fr'] as const;
+const locales = ['en', 'ar', 'ru', 'fr'] as const;
 
 const localeShortcodes: Record<string, string> = {
   en: 'EN',
-  he: 'עב',
   ar: 'عر',
   ru: 'RU',
   fr: 'FR',
@@ -145,6 +144,7 @@ export default function Navbar() {
 
   return (
     <motion.header
+      dir="ltr"
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}

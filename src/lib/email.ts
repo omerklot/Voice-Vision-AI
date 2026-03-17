@@ -5,7 +5,7 @@ export interface EmailResult {
   error?: string;
 }
 
-const TO_ADDRESS = 'voiceandvision.AI@gmail.com';
+const TO_ADDRESS = 'voiceandvisions.AI@gmail.com';
 
 /* ─── HTML escape utility ────────────────────────────────────────── */
 function escapeHtml(s: string): string {
