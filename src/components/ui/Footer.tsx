@@ -1,4 +1,3 @@
-import { Linkedin, Twitter } from 'lucide-react';
 import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 
@@ -31,22 +30,6 @@ export default async function Footer() {
             <p className="max-w-xs text-sm leading-relaxed text-[#888888]">
               {t('tagline')}
             </p>
-            <div className="flex items-center gap-4">
-              <a
-                href="#"
-                aria-label={t('linkedin')}
-                className="text-[#888888] transition-colors hover:text-[#00C9A7] p-1 min-w-[44px] min-h-[44px] inline-flex items-center justify-center"
-              >
-                <Linkedin size={20} aria-hidden="true" />
-              </a>
-              <a
-                href="#"
-                aria-label={t('twitter')}
-                className="text-[#888888] transition-colors hover:text-[#00C9A7] p-1 min-w-[44px] min-h-[44px] inline-flex items-center justify-center"
-              >
-                <Twitter size={20} aria-hidden="true" />
-              </a>
-            </div>
           </div>
 
           {/* Navigation */}
